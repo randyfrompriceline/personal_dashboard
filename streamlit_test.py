@@ -5,8 +5,9 @@ import numpy as np
 from typing import final
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
-streamlit_data = pd.read_csv('C:\Users\rrichardson\Downloads\streamlitdata.csv')
+streamlit_data = Path(__file__).parents[1] / 'streamlitdata.csv'
 
 st.table(data=streamlit_data)
 
