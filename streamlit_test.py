@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 
 
-streamlit_data = pd.read_csv('streamlitdata.csv')
+streamlit_data = pd.read_csv(r'C:\Users\rrichardson\Downloads\streamlitdata.csv')
 
 st.table(data=streamlit_data)
 
