@@ -5,7 +5,7 @@ import numpy as np
 from typing import final
 import streamlit as st
 import pandas as pd
-from pathlib import Path
+
 
 streamlit_data = pd.read_csv('streamlitdata.csv')
 
