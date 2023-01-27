@@ -5,8 +5,6 @@ import numpy as np
 from typing import final
 import streamlit as st
 import pandas as pd
-from matplotlib import pyplot as plt
-from  matplotlib.ticker import FuncFormatter
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
